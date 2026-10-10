@@ -64,13 +64,12 @@ Excel file (`books.xlsx`):
 
 ## Important Notes
 
-- The script currently reads **only the first page** (20 books).
+- The script currently reads all 50 pages(1000 books).
 - `os.startfile()` works on Windows only. Remove the last line of the script if you use macOS or Linux.
 - Only scrape websites that allow it. Check a site's terms of use and `robots.txt` first. This project uses a practice website made for learning.
 
 ## Ideas for Improvement
 
-- Scrape all 50 pages instead of one
 - Collect more details: rating, availability, and book link
 - Handle errors (site down, no internet) without crashing
 - Add a short pause between requests to be polite to the server
@@ -78,4 +77,4 @@ Excel file (`books.xlsx`):
 
 ## Author
 
-Built as a Python practice project.
+Built by gamila as a python practice project.
